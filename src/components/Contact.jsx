@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="contact-actions">
         <a
           className="icon-btn instagram"
-          href="https://instagram.com/delightech"
+          href="https://www.instagram.com/deligh_tech/?next=%2F"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="לינק לאינסטגרם"
