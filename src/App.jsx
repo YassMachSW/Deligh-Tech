@@ -10,14 +10,16 @@ export default function App() {
   return (
     <div className="app">
       <Header />
+       {/* <AccessibilityWidget /> */}
       <main>
+       {/* <AccessibilityWidget /> */}
         <WhyUs />
         <About />
         <Services />
         <Clients />
         <Contact />
       </main>
-      <footer className="footer">© {new Date().getFullYear()} Deligh-Tech. כל הזכויות שמורות.</footer>
+      <footer className="footer" direction: rtl>© {new Date().getFullYear()} כל הזכויות שלמורות deligh-Tech</footer>
     </div>
   );
 }

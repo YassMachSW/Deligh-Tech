@@ -1,0 +1,50 @@
+.accessibility-widget {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* בעברית אפשר גם מימין */
+  z-index: 1000;
+}
+
+.accessibility-toggle {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.accessibility-panel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.accessibility-panel button {
+  margin: 5px 0;
+  padding: 8px;
+  background: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.high-contrast {
+  filter: contrast(200%);
+}
+
+.dark-mode {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+.stop-animations * {
+  animation: none !important;
+  transition: none !important;
+}

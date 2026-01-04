@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", "Heebo", sans-serif;
+  background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+  color: #fff;
+  direction: rtl;       
+  text-align: right;    
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +49,13 @@
 
 .read-the-docs {
   color: #888;
+}
+
+ul, ol {
+  padding-right: 1.5rem; /* instead of left */
+  padding-left: 0;
+}
+
+h1, h2, h3, p {
+  text-align: right;
 }
